@@ -1,0 +1,67 @@
+.maindiv{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.itemsevent{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.imgevent img{
+    height: 10%;
+    width: 79%;
+}
+
+.eventdetais{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.updateandlike{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventdate {
+    width: max-content;
+}
+
+tr{
+    width: 100%;
+}
+
+
+tbody {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
