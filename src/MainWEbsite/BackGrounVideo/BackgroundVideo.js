@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import './BackgroundVideo.css'; // Import your CSS file
-import video from './gg.mp4'; // Provide the correct path to your video file
+
 
 const BackgroundVideo = () => {
   const blurValue = 1;
