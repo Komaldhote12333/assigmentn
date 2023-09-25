@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.namesvgi{
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  background-clip: text;
+  font-weight: 900;   
+  height: 80vh;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background-image: url("https://i.pinimg.com/736x/ae/a3/53/aea353fb67af656213b4b4daef8492fb.jpg");
+  background-size: 99%;
+  animation: animate 5s linear infinite;
+  font-size: 73px;
+  padding: 4%;
+  text-align: center;
+  background-position: cover;
+  display: grid;
+  place-items:center;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px rgb(197, 111, 111);
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .namesvgi {
+      
+      font-size: 11.60vw;
+     
+  font-weight: bolder;   
+  line-height: 7rem;
+  }
+
+}
+
+
+
+
+

@@ -1,0 +1,50 @@
+/* EventCarousel.module.css */
+
+
+
+.event-box {
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    padding: 1rem;
+    font-size: larger;
+    border-radius: 3rem;
+    background-color: transparent;
+    font-size: 1.50rem;
+  }
+  
+  .img-event {
+    background-color: rgb(255 255 255);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+  }
+  
+  .img-event img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .details-event {
+    background-color: rgb(255 255 255);
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  @media only screen and (max-width: 749px) {
+
+
+    .event-box {
+        
+        height: 235px;
+      
+      }
+
+  }

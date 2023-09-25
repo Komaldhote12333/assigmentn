@@ -1,0 +1,85 @@
+/* ImageGrid.module.css */
+
+/* Mobile View */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.gridItem {
+  width: 90%; /* Adjust width as needed for mobile layout */
+  margin: 10px;
+  height: 20rem;
+  text-align: center;
+  position: relative;
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gridItem img{
+  width: 100%;
+  height: 100%;
+  scale: 0.01;
+  position: absolute;
+  
+}
+.gridItem p {
+  position: absolute;
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.gridItem:hover img {
+  transform: scale(1.1); /* You can adjust the scale factor as needed */
+}
+
+
+/* Desktop View */
+@media (min-width: 768px) {
+  .grid {
+    justify-content: space-between;
+  }
+
+  .gridItem {
+    width: 22%; 
+  height: 20rem;
+
+  }
+}
+
+
+.Facilityheading{
+  background-color:hsl(178, 35%, 86%);
+  padding: 1rem;
+}
+.Facilityheading h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #e2498a;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: transparent;
+  background-image: radial-gradient(at center center,#e2498a 0%,#6830c8 70%);
+  font-family: "Raleway",Sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}

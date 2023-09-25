@@ -1,0 +1,62 @@
+/* src/components/Grid.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 26% auto;
+  color: #fff;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 18s linear infinite;
+  display: inline-block;
+  font-size: 10rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.placedtext{
+  text-transform: uppercase;
+  background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 26% auto;
+  color: #fff;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 16s linear infinite;
+  display: inline-block;
+  font-size: 4rem;
+  display: flex;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

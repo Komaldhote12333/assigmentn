@@ -1,0 +1,27 @@
+.collegehoistorybox{
+    height: 70vh;
+    overflow-y: auto;
+    background-color: whitesmoke;
+    color: #000000;
+    font-weight: 400;
+}
+
+.archivementbox{
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .dottext{
+    width: 18px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #FEDA00;
+    position: relative;
+    top: 3px;
+  
+  }
+  .archivemnttext{
+    border: none;
+    width: 100%;
+  
+  }

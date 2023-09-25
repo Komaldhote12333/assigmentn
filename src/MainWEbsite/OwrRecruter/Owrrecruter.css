@@ -1,0 +1,21 @@
+.compony_box{
+    padding: 10px;
+    background: transparent;
+    height: 20vh;
+}
+
+.compony_box img{
+   height: 100%;
+   width: 100%;
+   border-radius: 10%;
+
+}
+
+
+.toprecruterheading{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color:#FEDA00;
+    font-weight: bold;
+}

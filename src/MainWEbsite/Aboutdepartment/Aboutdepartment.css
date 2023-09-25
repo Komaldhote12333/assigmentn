@@ -1,0 +1,66 @@
+
+header {
+    text-align: center;
+    background: linear-gradient(to bottom right, #007acc, #3498db);
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.department {
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.department h2 {
+    font-size: 24px;
+    color: #007acc;
+}
+
+.hod {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.hod img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.hod-details {
+    font-size: 18px;
+}
+
+.about-department {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.facultycrousel{
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    .department {
+        margin: 10px;
+    }
+
+    .hod img {
+      width: 178px;
+      height: 81px;
+    }
+    .hod-details {
+      font-size: 12px;
+      overflow-x: auto;
+  }
+}

@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+#footer{
+  height: 0px;
+}
+
+.main-footer {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-evenly;
+
+  background-size: cover;
+  background-position: center;
+  font-weight: 600;
+  background-color: #292C2F;
+  
+
+}
+
+.main-footer ul {
+  list-style: none;
+}
+
+.main-footer h1 {
+  font-size: 22px;
+  line-height: 117%;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.main-footer h2 {
+  color: #ffffff;
+
+  font-weight: 500;
+}
+
+.main-footer ul li a {
+  color: #ffffffea;
+
+  text-decoration:none;
+}
+
+footer {
+  background-color: #000000;
+  border-top: 1px solid #6EB981;
+  font-size: 17px;
+  padding: 15px 5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+.logoinfo p {
+  color: #ffffff;
+
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-details li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contact-details li a {
+  text-decoration:none;
+  color: #f1f1f1;
+}
+
+.contact-details .fa {
+  color: #f1f1f1;
+  margin-right: 10px;
+}
+
+.sociallogos{
+  padding:20px 0;
+}
+
+.sociallogos .logobox a{
+  padding:0 10px;
+  text-decoration:none;
+  color: #ffffff;
+
+  font-size:22px;
+}
+
+.com ul li{
+  padding:5px 0;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 749px) {
+  .main-footer {
+    padding:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+    .info{
+      padding:20px 0;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .main-footer {
+    grid-template-columns: 1fr;
+  }
+  .sociallogos{
+    padding:20px 0;
+  }
+  .com{
+    padding:20px 0;
+  } 
+
+}
+
+
+
+.logoinfo {
+  padding: 0px;
+  margin: 0;
+  position: relative;
+  top: -16px;
+
+
+}
+
+
+.svgilogomainbox{
+  position: relative;
+  height: 20rem;
+  width: 20rem;
+  padding: 2rem;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  
+
+ 
+}
+
+
+.svgilogomainbox .bacgrounimgror1{
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 1;
+}
+
+.bacgrounimgror{
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  animation: ror 0.1s linear infinite;
+  object-fit: cover;
+}
+
+
+
+
+@keyframes ror {
+  to {
+    transform: rotate(-180deg);
+  }
+}
+
+
+.devlopedbypesonimage{
+  height: 150px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  left: 4rem;
+}
+.developerboxeach{
+  width:fit-content;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.developerimgcircule{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.developerimgcircule img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.marqueflex{
+display: flex;
+gap: 2rem;
+
+}
+
+
+.developedby{
+  color: #ffffff;
+}

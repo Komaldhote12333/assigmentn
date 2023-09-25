@@ -1,4 +1,6 @@
 import React from 'react';
+import { Globledata } from './ADMINPANEL/CONTEXTAPI/mycontext';
+
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -11,7 +13,9 @@ root.render(
   <React.StrictMode>
   <BrowserRouter>
   <DndProvider backend={HTML5Backend}>
-  <App />
+  <Globledata>
+   <App />
+   </Globledata>
   </DndProvider>,
 </BrowserRouter>
   </React.StrictMode>

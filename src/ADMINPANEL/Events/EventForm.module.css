@@ -1,0 +1,81 @@
+/* EventForm.module.css */
+.collegeForm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00aeff;
+  }
+
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="file"],
+  .form-container select,
+  .form-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .tablecontainer{
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .delete-button {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 6px 12px;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }

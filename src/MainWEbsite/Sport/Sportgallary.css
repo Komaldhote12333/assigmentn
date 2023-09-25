@@ -1,0 +1,41 @@
+.sports-section {
+    padding: 20px;
+    text-align: center;
+    color: wheat;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .sport-info {
+    margin-bottom: 20px;
+  }
+  .sport-info p{
+    font-weight: 900;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+  }
+  
+  .grid-item {
+    overflow: hidden;
+    height: 17rem;
+  }
+  
+
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+    transition: 5s linear step-end;
+    
+  }
+  
+  .grid-item img:hover {
+    transform: scale3d(1.3, 1.3, 1.3);
+   
+  }

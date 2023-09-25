@@ -1,0 +1,51 @@
+/* src/UpcomingEvents.module.css */
+.upcomingEvents {
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  .upcomingEvents h2 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: #0e0505;
+    background-color: #FFF;
+    border-radius: 10px;
+
+  }
+  
+  .eventList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .eventCard {
+
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .eventCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .eventImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    scale: 0;
+  }
+  
+  .eventInfo {
+    padding: 10px;
+  }
+  
+  /* Add more styles as needed */
+  

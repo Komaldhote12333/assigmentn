@@ -1,0 +1,193 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-image: url("https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?size=626&ext=jpg&ga=GA1.1.1673265282.1685962127&semt=sph");
+
+  color:#eaeaea;
+  position: relative;
+   background-repeat: no-repeat;
+background-size: cover;
+  font-weight: bold;
+  font-size: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 11111;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  width: 10%;
+
+}
+
+.clglogo{
+  border-radius: 100%;
+
+width: 52px;
+height: 46px;
+overflow: hidden;
+}
+
+.clgimg{
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-links {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 90%;
+}
+
+.navbar-links.open {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  background-color: #333;
+  transition: left 0.3s ease-in-out;
+  z-index: 1;
+}
+.navbar-links a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+
+.navbar-hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.bar.open {
+  transform: rotate(-45deg) translate(-5px, 6px);
+  opacity: 0.7;
+}
+
+.open2{
+  transform: rotate(40deg) translate(-5px, 6px);
+  opacity: 0.7;
+  position: relative;
+  left: 8px;
+}
+.open3{
+  display: none;
+}
+a::after{
+  position: relative;
+  content: "";
+  width: 0;
+  height: 0;
+  top: 2px;
+  background-color: #FFF;
+  display: flex;
+  visibility: hidden;
+  transition: 0.2s ease-in-out;
+
+}
+a:hover::after{
+  visibility: inherit;
+  position: relative;
+  content: "";
+  width: 90%;
+  height: 5px;
+  top: 2px;
+  display: flex;
+
+}
+
+.drpdown{
+  position: relative;
+  margin: 0;
+}
+
+.dropdwomlist{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+
+  top: 92%;
+  border-radius: 8px ;
+}
+
+     
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .navbar {
+  
+    padding: 2px 0px;
+
+ 
+  }
+
+  .navbar-links {
+   position: fixed;    
+   top: 0;
+   left: -100%;
+   transition: 0.3s ease-in-out;
+   flex-direction: column;
+
+  }
+
+  .opennav{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+    left: 0;
+    position: fixed;
+    top: 0;
+    background-color: #111111;
+    min-height: 100vh;
+
+  width: 100%;
+  padding: 3%;
+
+    
+  }
+  
+.navbar-logo {
+  width: 85%;
+  padding-left: 3%;
+}
+
+  .navbar-hamburger {
+    display: block;
+    padding-right: 3%;
+  }
+
+
+  .dropdwomlist{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+  
+    top: 92%;
+    border-radius: 8px ;
+  }
+  
+}

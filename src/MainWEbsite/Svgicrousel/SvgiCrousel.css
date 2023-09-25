@@ -1,0 +1,38 @@
+.SVgibox{
+    height: 100vh;
+    background-color: #FFF;
+
+}
+
+
+.imgsvgi{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.imgsvgi img{
+
+    width: 100%;
+    height: 100%;
+  
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+
+.SVgibox{
+    height: 40vh;
+
+}
+
+}
