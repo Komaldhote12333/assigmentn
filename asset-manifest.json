@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.238b0ba6.css",
-    "main.js": "/react-gh-pages/static/js/main.06331935.js",
-    "static/js/787.f3cdb077.chunk.js": "/react-gh-pages/static/js/787.f3cdb077.chunk.js",
-    "static/media/komal.jpeg": "/react-gh-pages/static/media/komal.8cc3d24f317dc1209292.jpeg",
-    "static/media/svgiimg.png": "/react-gh-pages/static/media/svgiimg.c1aba6d7a671e90515db.png",
-    "static/media/nikhil.jpg": "/react-gh-pages/static/media/nikhil.8acf4ec78db0f6557ec4.jpg",
-    "static/media/revicons.eot": "/react-gh-pages/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/react-gh-pages/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/rohit.jpg": "/react-gh-pages/static/media/rohit.98f03e24a3455a58ea1b.jpg",
-    "static/media/revicons.woff": "/react-gh-pages/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/react-gh-pages/index.html",
-    "main.238b0ba6.css.map": "/react-gh-pages/static/css/main.238b0ba6.css.map",
-    "main.06331935.js.map": "/react-gh-pages/static/js/main.06331935.js.map",
-    "787.f3cdb077.chunk.js.map": "/react-gh-pages/static/js/787.f3cdb077.chunk.js.map"
+    "main.css": "/assigmentn/static/css/main.a44c4996.css",
+    "main.js": "/assigmentn/static/js/main.2bcce831.js",
+    "static/js/787.f3cdb077.chunk.js": "/assigmentn/static/js/787.f3cdb077.chunk.js",
+    "static/media/komal.jpeg": "/assigmentn/static/media/komal.8cc3d24f317dc1209292.jpeg",
+    "static/media/svgiimg.png": "/assigmentn/static/media/svgiimg.c1aba6d7a671e90515db.png",
+    "static/media/nikhil.jpg": "/assigmentn/static/media/nikhil.8acf4ec78db0f6557ec4.jpg",
+    "static/media/revicons.eot": "/assigmentn/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/assigmentn/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/rohit.jpg": "/assigmentn/static/media/rohit.98f03e24a3455a58ea1b.jpg",
+    "static/media/revicons.woff": "/assigmentn/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/assigmentn/index.html",
+    "main.a44c4996.css.map": "/assigmentn/static/css/main.a44c4996.css.map",
+    "main.2bcce831.js.map": "/assigmentn/static/js/main.2bcce831.js.map",
+    "787.f3cdb077.chunk.js.map": "/assigmentn/static/js/787.f3cdb077.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.238b0ba6.css",
-    "static/js/main.06331935.js"
+    "static/css/main.a44c4996.css",
+    "static/js/main.2bcce831.js"
   ]
 }
