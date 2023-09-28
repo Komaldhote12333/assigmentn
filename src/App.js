@@ -36,7 +36,6 @@ const App = () => {
   return (
     <>
 <Navbar/>
-<BackgroundVideo/>
 <Routes>
 
 

@@ -2,6 +2,7 @@ import './Svginame.css';
 import React, { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import BackgroundVideo from '../BackGrounVideo/BackgroundVideo';
 
 
 const Svginame =() => {
@@ -44,6 +45,8 @@ const Svginame =() => {
 
     return(
        <>
+       <div className="svgivideonandname">
+       
        
        <div className="namesvgi" ref = {svcerem}>
        swami vivekanand group of institutions indore
@@ -51,6 +54,13 @@ const Svginame =() => {
      
        
        </div>
+
+       <div className="svgibacvideo">
+       <BackgroundVideo/>
+       </div>
+       <div className="svginamecolor"></div>
+       </div>
+
 </>
     );
 }

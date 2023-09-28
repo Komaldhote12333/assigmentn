@@ -4,29 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html{
+  overflow-x: hidden;
+}
 /* Set up full viewport height for html, body, and div.app */
 html, body, div.app {
-  overflow-x: hidden;
-  overflow-x: initial !important;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 4vh;
+  border: 1px solid red;
+  padding-top: 2vh;
 
 }
 
 /* Ensure div#root takes 100% height */
-
-/* Styling for div.app */
-
-.f{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.fc{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+/* Ensure div#root takes 100% height */

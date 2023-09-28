@@ -44,7 +44,7 @@ function ContactUs() {
     <div>
       <form onSubmit={handleSubmit}>
         <div class="background">
-          <div class="container">
+          <div class="containerc">
             <div class="screen">
               <div class="screen-header">
                 <div class="screen-header-left">

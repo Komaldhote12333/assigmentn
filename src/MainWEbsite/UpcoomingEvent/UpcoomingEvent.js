@@ -48,7 +48,7 @@ const UpcomingEvents = () => {
         trigger: contentRefevent.current,
         start: 'top bottom',
         end: 'bottom top',
-        scrub:"Infinity",
+        scrub:false,
       },
     });
 
@@ -66,12 +66,16 @@ const UpcomingEvents = () => {
       <div className={styles.eventList}>
         {UpccomingEventArray.map((event, index) => (
           <div className={styles.eventCard}    key={index}>
-            <img
-              src={event.image}
-              alt={event.eventname}
-              ref={Eventcmakearr}
-              className={styles.eventImage}
-            />
+          <div className={styles.eventimagesbox}>
+          
+          <img
+          src={event.image}
+          alt={event.eventname}
+          ref={Eventcmakearr}
+          className={styles.eventImage}
+        />
+          </div>
+        
             <div className={styles.eventInfo}>
               <h3>{event.eventname}</h3>
               <p>Date: {event.event_date}</p>

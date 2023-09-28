@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import './BackgroundVideo.css'; // Import your CSS file
-
+import video from './gg.mp4'; // Provide the correct path to your video file
 
 const BackgroundVideo = () => {
   const blurValue = 1;
@@ -27,10 +27,10 @@ const BackgroundVideo = () => {
 
   return (
     <div className="background-video-container">
-{/*  <video autoPlay muted loop playsInline className="bright-video">
+      <video autoPlay muted loop playsInline className="bright-video">
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>  */}
+      </video>
     </div>
   );
 };
