@@ -13,7 +13,11 @@ const Svgigalary = () => {
    },[])
     return (
       <div className="sports-section">
-        <h2 >SVCE Indore College Galary</h2>
+        <div className="svcegalalrybag">
+        <h1 >Our Galary</h1>
+        
+        
+        </div>
         <div className="sport-info">
           {/* Add information about the college's sports */}
         

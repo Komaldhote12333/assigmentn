@@ -2,31 +2,233 @@ import styles from './Aboutclghistory.module.css';
 
 const AboutCollege = () => {
     return(
-        <div className={styles.collegehoistorybox}>
+  <>
+  <div className={styles.Aboutclgfrontpage}> <marquee behavior="" direction="">ABOUT SWAMI VIVEKANAND GROUP OF INSTITUTIONS INDORE</marquee> </div>
+  
+  <div className={styles.collegehoistorybox}>
         
-        <div className={styles.archivementbox}>
-     <div className={styles.dottext}></div>
-     <div className={styles.archivemnttext}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem laboriosam nam corrupti explicabo illum fugit tenetur, nulla tempore perspiciatis voluptatem error amet porro in. Facere exercitationem consequuntur nostrum amet quasi.</div>
-     </div>
+  <div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b> Welcome to Swami Vivekananda Group of Institutions, Indore </b>
 
-     <div className={styles.archivementbox}>
-     <div className={styles.dottext}></div>
-     <div className={styles.archivemnttext}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem laboriosam nam corrupti explicabo illum fugit tenetur, nulla tempore perspiciatis voluptatem error amet porro in. Facere exercitationem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, magni fugiat quaerat repellendus alias vitae id perferendis tempora asperiores atque quis. Facilis asperiores totam molestiae! Facere deleniti minus provident debitis soluta odio saepe minima eveniet quibusdam perferendis magni quos voluptate commodi quisquam consequatur eos et quasi nemo, rerum sit molestiae maiores. Vero eaque mollitia, voluptatibus quos iusto obcaecati ab et officiis quia molestiae officia fugiat corporis aspernatur tenetur laborum dolores velit, hic amet, aperiam perspiciatis quibusdam cum rerum. Non cupiditate debitis nam itaque? Inventore impedit nulla assumenda aperiam illum odio, earum deleniti! Excepturi eum enim officia animi fugiat blanditiis aut deserunt eos maiores harum id laudantium praesentium error ipsam provident velit reprehenderit libero esse placeat, ad cum reiciendis mollitia ex earum. Hic, incidunt. consequuntur nostrum amet </div>
-     </div>
+At Swami Vivekananda Group of Institutions, we believe in the transformative power of education. Established with a vision to nurture young minds and empower them with knowledge, skills, and values, our institution stands as a beacon of academic excellence in Indore and beyond.</div>
+</div>
 
 
-     <div className={styles.archivementbox}>
-     <div className={styles.dottext}></div>
-     <div className={styles.archivemnttext}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem laboriosam n Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ut eos laboriosam error natus iste cupiditate eveniet cum nesciunt iusto veritatis aliquam aut rerum, vitae praesentium excepturi voluptate at. Adipisci odit non culpa officiis atque neque, vero repellat sequi? Aliquid nobis tempora cupiditate iusto atque beatae excepturi voluptates perspiciatis quidem obcaecati neque expedita sed, error numquam officiis ex corporis quia earum. Ut, minima. Ullam eos eligendi enim animi sit ea ducimus. Magnam tempore iusto ea reprehenderit modi voluptatibus, at nihil culpa nesciunt totam eum non. Minus error expedita porro possimus alias dolorem beatae non, magni maxime magnam obcaecati distinctio culpa quidem sint! Vitae, libero. Et praesentium labore rem reiciendis tempore necessitatibus cumque officia neque, quisquam ipsam similique, distinctio ullam deleniti error! Impedit architecto nam dolore maxime quibusdam facere odio minima error veniam doloribus fugiat, perferendis delectus tempora molestias consequuntur dolores eligendi. Deserunt, inventore molestiae porro suscipit minima illo nulla vel obcaecati quas quis aliquid nobis officia, architecto, dicta in. Eius odit laudantium officia repellat obcaecati sapiente, rerum voluptatibus veritatis? Nihil aspernatur nostrum commodi eum vitae. Illo accusantium modi ullam, illum quo ducimus, quae dolores rerum tenetur minus voluptate consequatur itaque ad maiores beatae voluptatum perferendis deserunt est? Aliquam facere et minima rem vitae ad voluptas laborum repudiandae molestias excepturi sapiente aliquid ex velit quaerat laudantium a voluptatem saepe nobis possimus maiores, qui quidem dolore laboriosam consequatur. Perspiciatis, nobis velit quibusdam id dolores nulla vel repellat saepe accusantium repellendus sapiente aliquid! Dolores incidunt amet nihil libero sapiente nam eos, ex, harum voluptatum distinctio cumque error quaerat voluptatibus eveniet porro odit provident beatae quidem ad. Eos nostrum explicabo possimus quibusdam amet dolorum provident minus neque officia velit sequi fugiat iusto delectus sit voluptas voluptate molestias nobis placeat, sunt repudiandae. Obcaecati delectus minus praesentium suscipit nobis voluptas vel ipsum distinctio blanditiis, rem quis, aperiam, ipsam nesciunt fugiat quos quam dolores ea odit labore necessitatibus sunt dolorem ex hic nisi! Dolorum laboriosam ut similique beatae quidem quibusdam neque voluptatibus necessitatibus id dolore. Veritatis sint corrupti tenetur molestiae a aliquid saepe quod excepturi asperiores rem. Magni eveniet recusandae molestiae atque sint iste quia, vitae numquam ab expedita? Quae suscipit laborum ut dignissimos excepturi. Voluptate nesciunt blanditiis voluptatem reprehenderit rerum ipsam dolores mollitia laborum saepe, fugiat repudiandae odio? Atque natus nisi, dolorem quis eaque minus aliquid accusamus id est cumque, ab reprehenderit neque laboriosam! Autem totam nesciunt veritatis eveniet hic iusto quidem obcaecati est nemo corporis pariatur mollitia officiis, excepturi accusamus sit voluptates labore laboriosam itaque expedita, enim culpa! Ex dolore alias praesentium soluta recusandae pariatur esse officia iure earum doloribus. Exercitationem quae et provident aliquid reiciendis officiis odit quasi tenetur, laborum obcaecati, magni mollitia? Ipsa consequuntur illo facilis, facere iste perferendis iusto eligendi, similique voluptates sit aperiam consectetur nemo modi et sunt! Quo nesciunt quam dolorum error, minus neque! Minima nulla veniam voluptates ratione dignissimos? Pariatur asperiores natus blanditiis porro. Dolorem aspernatur quidem reiciendis adipisci odio quae iste beatae quo tenetur, ut mollitia iure eum quos sed animi autem sint perspiciatis dignissimos totam omnis eveniet voluptates. Architecto rem nobis libero sequi magnam, officia asperiores dolore qui obcaecati quos ullam aperiam eveniet rerum laborum dolorem et tempora sit veritatis. Animi in facere dolore distinctio tenetur iure magni, accusantium perspiciatis quidem fugiat dignissimos error mollitia quaerat sequi molestiae veritatis corporis doloremque blanditiis excepturi magnam quo adipisci sit ea? Optio sapiente odio aliquid, facilis enim veniam atque possimus deserunt fuga soluta molestias consequuntur! Libero expedita maxime nesciunt sapiente error sed doloremque totam possimus distinctio ea. Repellendus quis consectetur tempore quo eos temporibus, veritatis omnis sint praesentium animi quae ullam doloremque magnam deserunt debitis similique ratione incidunt. Ea, ipsam praesentium aliquid quasi deleniti nesciunt quibusdam. Ipsa beatae rem amet, alias, delectus, ratione fugiat laudantium commodi itaque possimus aliquam facilis tempore repellat cumque vel iure in praesentium similique. Quisquam exercitationem reiciendis quia eveniet ex, accusantium minima nulla ea quibusdam esse eius ipsum, aut cupiditate a magnam fugiat numquam veniam, tenetur optio sint enim aliquam veritatis alias. Ad distinctio repellendus ratione laudantium unde ab tenetur vero quaerat animi in quibusdam autem nostrum ipsa soluta amet numquam nobis exercitationem culpa optio maxime quia iste, vel, minus sint? Minus laborum dolor quibusdam! Laborum quia fuga dolorem magnam accusamus ipsam rerum commodi sit enim? Veniam voluptates provident sed aliquid fuga quaerat odit, corrupti expedita unde quidem vitae quia consectetur officiis quae quis tempora. Sapiente ratione quo quidem atque numquam tempora esse corporis blanditiis commodi quia unde enim nam repudiandae, accusantium rerum reprehenderit ad nesciunt iusto, obcaecati voluptatum cupiditate. Magni commodi non corrupti, illo nulla amet nesciunt consequuntur, enim esse architecto minus a corporis iure nemo voluptatum quas praesentium velit incidunt dolore consectetur. Accusamus minus ipsum non hic ut? Commodi earum tempore maiores et ullam in obcaecati deserunt dolor expedita. Officiis sunt nam eius.am corrupti explicabo illum fugit tenetur, nulla tempore perspiciatis voluptatem error amet porro in. Facere exercitationem consequuntur nostrum amet quasi.</div>
-     </div>
 
-     <div className={styles.archivementbox}>
-     <div className={styles.dottext}></div>
-     <div className={styles.archivemnttext}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem laboriosam nam corrupti explicabo illum fugit tenetur, nulla tempore perspiciatis voluptatem error amet porro in. Facere exercitationem consequuntur nostrum amet quasi.</div>
-     </div>
+
+
         
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b> Swami Vivekananda Group of Institutions (SVGI) </b>
+
+ is situated in Indore, Madhya Pradesh and it was established in 2004. It is approved by AICTE, affiliated to RGPV. The institution offers courses in Engineering, Pharmacy, Management and Diploma in Engineering.</div>
+</div>
+
+
+
+
+
+
         
-        </div>
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b> Welcome to Swami Vivekananda Group of Institutions, Indore </b>
+
+At Swami Vivekananda Group of Institutions, we believe in the transformative power of education. Established with a vision to nurture young minds and empower them with knowledge, skills, and values, our institution stands as a beacon of academic excellence in Indore and beyond.</div>
+</div>
+
+
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b>SVGI REACH</b>
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}>SVGI, which has carved a special place rich in the field of education around Indore is not only approved by All India Council for Technical Education (AICTE) New Delhi, the premier Central Regulatory Body but is also an affiliate to Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal and Devi Ahilya Vishwavidyalaya, Indore. It is duly recognized by the Directorate of Technical Education, Madhya Pradesh, spread over a scenic campus of over 25 acres land.
+
+The institute offers six undergraduates and five postgraduate courses with an intake of 540 and 174 students respectively. At any time, there are approximately 2400 undergraduate students studying in the institute.</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+ 
+
+
+
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b>   Dignitary Message  </b>
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}> Americans rose to their feet on the address of Swami Vivekanand in Chicago. Today I urge the young Technocrats of Swami Vivekanand College of Engineering and Pharmacy to follow Swami Vivekanand's message to youth. "Arise awake and stop not till the goal is reached." Do the best in your chosen field. Achieve excellence.
+
+Indian institutions are renowned world over. With dedication and commitment, SVCE can achieve the highest standard in education. I congratulate and wish the very best to students, teachers and members of management board of the Swami Vivekanand College of Engineering and Pharmacy.</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b> Chairman Message    </b>
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b>Shri Anoop Mishra
+Chairman, SVTS
+Ex Member of Parliament
+Ex Minister, MP Govt.</b>FROM THE DESK OF CHAIRMAN
+
+Swami Vivekanand Group aims at providing a unique and excellent atmosphere for learning and development of students to harness their hidden potential. With the Engineering, Pharmacy and Management institutes, the group tends to cover all the aspects of higher education in the society.
+
+I, as a Promoter, thrive to take this educational institute to new heights of excellence and help transform the students into well-trained technocrats of tomorrow's society. I envision a future with highly skilled talent and thus work towards building a platform for students to realize their dreams.
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b> DIRECTOR MESSAGE    </b>
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b>Mr. Sachin Mishra
+Director, SVGI</b>FROM THE DESK OF DIRECTOR
+
+SVGI is a name synonymous with unparalleled success, strength and pride. Our Institution’s mission is to empower the students to become excellent human resources and to contribute meaningfully to the Society and Nation. The Institution focuses to prepare students as future technocrats and business leaders.
+
+SVGI has always believed in recognizing and nurturing talents. Our placement record reflects the versatile talent of our students.
+
+I am proud of our history, our values and high academic standards achieved by our students. I hope you will feel the same sense of joyful discovery as you move along with us.</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b> TREASURE MESSAGE    </b>
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b>Mrs. Shobha Mishra
+Treasure, SVTS</b> "If you think in terms of a year, plant a seed; if in terms of ten years, plant trees; if in terms of 100 years, teach the people."
+
+– Confucius.
+
+FROM THE DESK OF TREASURE
+
+The Swami Vivekanabd Group of Colleges is widely known for its commitment to excellence in preparing students to address the current and future needs of society, while performing with integrity, compassion, and competence.
+
+At SVGI, the faculty members actively challenge and support students, enabling them to structure educational experiences that are enriching, relevant, and ultimately rewarding. Recognized for imparting quality education in a disciplined and organized environment, the IPS Group of Colleges leaves no stone unturned to encourage the holistic development of the personalities of its students. I hope you will explore the endless opportunities and state-of-the-art infrastructure available in academics and sports at the SVGI, and join our student community.</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b> SECRETARY MESSAGE    </b>
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b>Mr. Ashwini Mishra
+Secretary, SVTS</b>FROM THE DESK OF SECRETARY
+
+The Institute is equipped with excellent infrastructure facilities, combined with the support of academicians, experts from the industry, and other fields to cater to the needs of the student community. The Institute ensures that you get the best possible support, both academically and socially. I earnestly wish the students a very fulfilling and fruitful period at the institute</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b>  PRINCIPAL MESSAGE (Engineering)   </b>
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}> <b>Dr. Pradeep Kumar Patil</b>Success comes to those who work hard and stays with those who don’t rest on past laurels. Education is a multi-stage process of building character, acquiring knowledge and improving skills for life-long learning to lead a happy and peaceful life.
+
+SVCE started its journey in the year 2004 with the aim of providing education to students and empowering them so that they can be financially independent, socially conscious, morally upright and emotionally balanced.
+
+We provide high-end undergraduate education and research opportunities in new frontiers of Engineering and Technology with special focus towards Leadership & Innovation. Students are provided with opportunities for interaction with the experts from the Industry through Guest Lectures, Industrial Visits, Vocational Training (internships), student chapters of International Professional bodies, sponsored projects etc. To align with the curricula, we have excellent faculty, state-of- the-art infrastructure and laboratories. Spacious green campus, good library and peaceful atmosphere ensure that learning becomes a wonderful experience.
+
+I would warmly welcome you to come and visit to experience for yourself all that Swami Vivekanand College of Engineering, Indore.</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b>  PRINCIPAL MESSAGE (Pharmacy)   </b>
+
+<div className={styles.archivementbox}>
+<div className={styles.dottext}></div>
+<div className={styles.archivemnttext}><b>Dr. Pawan Kumar Dubey</b> Swami Vivekanand College of Pharmacy imparting pharmaceutical education since 2004 with aim to reform students .The holistic approach helps to develop a more conscious vision towards mankind. The objective of teaching is to make students to stand on their own feet. The theoretical and practical aspects are taught using modern ICT tools with high level of discipline. Various activities round the year help to teach idea of synthesis, tolerance and universal harmony which is a basic need now a days to save mankind .In our education methods equal importance is given to spirit and matter which permit the inner development of human personality, These teaching methodology prepare students an outstanding pharmacist and responsible citizen.</div>
+</div>
+</div>
+</div>
+
+  
+  
+  </div>
+  </>
+
+
+       
     )
 }
 

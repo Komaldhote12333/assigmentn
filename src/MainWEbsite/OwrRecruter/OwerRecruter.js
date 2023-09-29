@@ -33,7 +33,7 @@ const Owerecruter = () => {
         }
       };
     return (
-      <> <div className="toprecruterheading">Owr Top Recruter </div>
+      <> <div className="toprecruterheading">Our Top Recruter </div>
         <Carousel
         responsive={responsive}
         infinite={true}
@@ -60,7 +60,7 @@ const Owerecruter = () => {
 
 
       </Carousel>
-      <div className="toprecruterheading">300 + Comapanies Visited </div>
+      <div className="toprecruterheading">300 + Companies Visited </div>
       </>
     )
 }

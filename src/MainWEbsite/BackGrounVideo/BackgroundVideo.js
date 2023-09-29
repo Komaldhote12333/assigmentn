@@ -1,33 +1,48 @@
-import React, { useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './BackgroundVideo.css'; // Import your CSS file
 import video from './gg.mp4'; // Provide the correct path to your video file
 
 const BackgroundVideo = () => {
-  const blurValue = 1;
-  useEffect(() => {
-    // Function to update the blur based on scroll position
-    const handleScroll = () => {
-      const scrollY = window.scrollY;
-      const blurValue = Math.min(scrollY / 10, 5); // Adjust the divisor and limit as needed
-      gsap.to(".bright-video", {
-        filter: `blur(${blurValue}px)`, // Apply blur based on scroll position
-        duration: 0.5 // Adjust animation speed as needed
+  const svcerem = useRef(null);
+  gsap.registerPlugin(ScrollTrigger);
+
+  var k =1
+
+  const animatebox = () => {
+     if(k === 1){
+      gsap.from(svcerem.current, {
+        scale:0,
+        duration:1,
+        delay:0.50,
+        transition:'all east out',
+        opacity:0
+
+
+
+
       });
-    };
+      k = k + 1
+     }
 
-    // Attach the scroll event listener
-    window.addEventListener("scroll", handleScroll);
+     
+     
 
-    // Cleanup the event listener when the component unmounts
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+
+    
+
+    
+  
+  };
+
+  useEffect(() => {
+    animatebox();
   }, []);
 
   return (
     <div className="background-video-container">
-      <video autoPlay muted loop playsInline className="bright-video">
+      <video autoPlay muted loop playsInline ref={svcerem} className="bright-video">
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

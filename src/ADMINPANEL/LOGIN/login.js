@@ -107,7 +107,9 @@ function LoginPage() {
 
     return (
         <div>
-            <h2 class= "loginh2">Login</h2>
+        <div className="svcegalalrybag">  
+            <h1 class= "loginh2">Login</h1>
+            </div>
             {error && <p>{error}</p>}
             
               

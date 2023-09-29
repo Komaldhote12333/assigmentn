@@ -6,14 +6,15 @@
 }
 html{
   overflow-x: hidden;
+  width: 100%;
 }
-/* Set up full viewport height for html, body, and div.app */
-html, body, div.app {
+body{
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
-  border: 1px solid red;
-  padding-top: 2vh;
+  padding-top: 9vh;
 
 }
+/* Set up full viewport height for html, body, and div.app */
 
 /* Ensure div#root takes 100% height */
 /* Ensure div#root takes 100% height */

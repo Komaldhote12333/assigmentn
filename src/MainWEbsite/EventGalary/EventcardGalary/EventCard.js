@@ -17,7 +17,7 @@ const EventCard = () => {
     }, [])
     return (
         <>
-           <div className={styles.eventheadline}>Our Events </div>
+           <div className={styles.eventheadline}> <h1>Our Events</h1> </div>
             {Eventdatata?.map((item) => {
                 return <div className={styles.eventCard}>
                 <div className={styles.eventimagebox}>

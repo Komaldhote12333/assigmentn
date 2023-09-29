@@ -15,11 +15,10 @@ const Svginame =() => {
      if(k === 1){
       gsap.from(svcerem.current, {
         scale:0,
-        duration:1,
-        delay:0.50,
+        duration:2,
+        delay:1,
         transition:'all east out',
-        x:"-10%",
-        y:"-100%",
+        opacity:0
 
 
 

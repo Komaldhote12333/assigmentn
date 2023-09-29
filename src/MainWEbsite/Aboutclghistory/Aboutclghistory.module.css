@@ -1,5 +1,5 @@
 .collegehoistorybox{
-    height: 70vh;
+    height: 60vh;
     overflow-y: auto;
     background-color: whitesmoke;
     color: #000000;
@@ -24,4 +24,20 @@
     border: none;
     width: 100%;
   
+  }
+
+
+  .Aboutclgfrontpage{
+    width: 100%;
+    background-color: #FEDA00;
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Aboutclgfrontpage marquee{
+  text-align: center;
+  height: 100%;
   }
