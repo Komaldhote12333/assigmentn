@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SvgColor from '../SvgColor/Svgcolor';
 
+
 const ImageGrid = () => {
   const images = [
     { id: 1, src: 'https://lnct.ac.in/wp-content/uploads/2021/09/digital-Library-min.jpg', text: 'DIGITAL LIBRARY' },
@@ -23,33 +24,22 @@ const ImageGrid = () => {
 
 
   const images2 = [
-    { id: 1, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-16.jpg', text: 'DIGITAL LIBRARY' },
-    { id: 2, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-13.jpg', text: 'HAPPY CLASSROOM' },
-    { id: 3, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-2.jpg', text: 'HEALTH CARE' },
-     { id: 4, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-9.jpg', text: 'SVGI CANTEEN' },
+    { id: 1, src:"https://i.postimg.cc/yxLHTxjg/celebrity-revisit.jpg", text: 'DIGITAL LIBRARY' },
+    { id: 2, src: 'https://i.postimg.cc/JzfWx9Nq/spandan-2.jpg', text: 'HAPPY CLASSROOM' },
+    { id: 3, src: 'https://i.postimg.cc/VNXPVD4c/spandan1.jpg', text: 'HEALTH CARE' },
+     { id: 4, src: 'https://i.postimg.cc/cCLq6ZWs/spandan3.jpg', text: 'SVGI CANTEEN' },
 
-     { id: 5, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-5.jpg', text: 'TRANS PORTATION' },
-
-
-     { id: 6, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-9.jpg', text: 'SPORTS ACADEMY' },
-
-     { id: 7, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-10.jpg', text: 'SPORTS ACADEMY' },
-     { id: 7, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-9.jpg', text: 'SPORTS ACADEMY' },
-
-     { id: 7, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-4.jpg', text: 'SPORTS ACADEMY' },
-
-     { id: 7, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-6.jpg', text: 'SPORTS ACADEMY' },
-
-     { id: 7, src: 'https://lnct.ac.in/wp-content/uploads/2023/05/LifeatLNCT-8.jpg', text: 'SPORTS ACADEMY' },
-
-     { id: 1, src: 'https://lnct.ac.in/wp-content/uploads/2021/09/digital-Library-min.jpg', text: 'DIGITAL LIBRARY' },
-     { id: 2, src: 'https://lnct.ac.in/wp-content/uploads/2021/09/Digital-Classrooms-min.jpg', text: 'HAPPY CLASSROOM' },
-     { id: 3, src: 'https://lnct.ac.in/wp-content/uploads/2021/09/Health-Care-min.jpg', text: 'HEALTH CARE' },
-      { id: 4, src: 'https://lnct.ac.in/wp-content/uploads/2021/09/Canteen-min-1.jpg', text: 'SVGI CANTEEN' },
- 
-      { id: 5, src: 'https://lnct.ac.in/wp-content/uploads/2021/09/Transportation.jpg', text: 'TRANS PORTATION' },
+     { id: 5, src: 'https://i.postimg.cc/QtsZG1nK/spandan5.jpg', text: 'TRANS PORTATION' },
 
 
+     { id: 6, src: 'https://i.postimg.cc/DZgk20tj/spandan6.jpg', text: 'SPORTS ACADEMY' },
+
+     { id: 7, src: 'https://i.postimg.cc/vZgsW-QVT/tarnyam9.jpg', text: 'SPORTS ACADEMY' },
+     { id: 7, src: 'https://i.postimg.cc/4N3Zxv4z/tarunyam8.jpg', text: 'SPORTS ACADEMY' },
+
+     { id: 7, src: 'https://i.postimg.cc/Fsnvdf1w/tarynyam2.jpg', text: 'SPORTS ACADEMY' },
+
+   
 
   ];
 

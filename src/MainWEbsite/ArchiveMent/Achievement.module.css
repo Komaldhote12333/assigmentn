@@ -8,7 +8,7 @@
   color: #0e0505;
   background-color: #FEDA00;
   border-radius: 10px;
-  margin-top: 4rem;
+  margin-top: 1vh;
 
 }
 
@@ -44,6 +44,7 @@
   margin-top: 3%;
   grid-row-gap: 14px;
   margin-bottom: 3rem;
+  padding: 1rem;
 }
 
 .gallery-item {
@@ -57,6 +58,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 17rem;
 }
 
 
