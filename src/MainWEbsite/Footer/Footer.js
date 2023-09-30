@@ -4,7 +4,8 @@ import nikhil from  './nikhil.jpg';
 import rohit from  './rohit.jpg';
 import ravindra from  './ravindra.jpg';
 import komal from  './komal.jpeg';
-
+import circule from  './circule.png';
+import rehan from  './rehan.jpg';
 
 
 
@@ -38,7 +39,7 @@ const Footer = () => {
 
         <div className="svgilogomainbox">
         <img src={svgi}  className="bacgrounimgror1" alt="" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl1wx7AmZu4mHrtfDlHfdA7KBLs4N5BD_DRA&usqp=CAU" alt="" className="bacgrounimgror" />
+        <img src={circule} alt="" className="bacgrounimgror" />
 
 
 
@@ -97,13 +98,17 @@ const Footer = () => {
 
 
 
-  
+
+
   <div className="developerboxeach">
-  <div className="developerimgcircule"><img src={nikhil} alt="" /></div>
-  <div className="developername">Nikhil Pthade</div>
+  <div className="developerimgcircule"><img src={rehan} alt="" /></div>
+  <div className="developername">Mohd Rehan Qureshi</div>
   
   </div>
-   
+
+
+  
+
 
 
 
